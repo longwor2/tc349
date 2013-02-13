@@ -2,44 +2,83 @@
 /* page.css */
 
 h1 {
+	border-bottom:5px solid #424242;
+	padding: 15px;
 	font-family:Arial, Helvetica, sans-serif;
-	color: white;
+	color: #424242;
+	text-shadow: 3px 3px 5px #424242;
 	font-size:80px;
 	}
 h2{
-	padding-left:20px;
-	padding-top:20px;
+	
 	font-family:Arial, Helvetica, sans-serif;
 	color:#666;
 	font-size:25px;
 }
+#text{
+	padding-left:30px
+}
+#labels li{
+	margin:0;
+	background:#F3D5E6;
+	display: inline;
+	text-decoration: none;
+	padding-right:110px;
+	padding-left:65px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:18px;
+	padding-top:0px;
+	
+}
+a {
+	padding:0px;
+	text-decoration: none;
+	color: #424242;
+}
 h3{
+	
 	font-family:Arial, Helvetica, sans-serif;
 	color:#000;
 	font-size:12px;
 }
 ul {
+	
 	font-family:Arial, Helvetica, sans-serif;
 	color:#000;
 	font-size:12px;
 }
 table{
 	
+	
 	font-family:Arial, Helvetica, sans-serif;
 	color:#000;
 	font-size:12px;
 }
 p {
-	padding:40px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 15px;
+	color:#000;
+	font-size:12px;
 }
-#text {
-	background-color:white;
-	background-size:contain;
-	width:700px;
-	padding-left: 80px;
-	padding-top:50px;
+.text {
+	padding-left:20px;
+	
+}
+.container{
+	background: #FFF;
+	width: 800px;
+	margin: 0 auto;
 }
 body {
-	padding-left:120px;
+	
 	background-image:url(../images/pinkback.jpg);
+}
+table, tr, td{
+	
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+table td {
+	padding: 5px
 }
