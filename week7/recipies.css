@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background: url(images/bg.png);
+	margin:0;
+	font-family: "Helvetica", sans-serif;
+	line-height: 1.4em;
+}
+h1,h2,h3{
+	margin:0px;
+}
+h1{
+	height:100px;
+	weight:800px;
+	text-indent:-9000px;
+	margin:20px 0 20px 0;
+	background: url(images/logo.png) no-repeat;
+	color: #fff;
+	
+}
+h2{
+	margin: 5px;
+}
+h3{
+	margin: 5px;
+	font-weight:normal;
+}
+hgroup{
+	color:#fff;
+	margin: 0 0 40px 0;
+}
+article{
+	margin-top: 250px;
+}
+.container{
+	
+	width: 800px;
+	margin: 0 auto;
+}
+#recipies{
+	padding: 15px;
+	background: #fff url(images/yum.jpg) no-repeat;
+	border-top: 10px solid #222;
+}
+table, tr, td{
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+table td {
+	padding: 5px;
+}
