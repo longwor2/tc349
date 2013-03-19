@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@font-face { font-family: peahilarymarie; src: url('peahilarymarie.ttf'); }
+@font-face { font-family: Orator; src: url('OratorStd.ttf'); }
+/* CSS Document */
+
+body{
+	font-family:Orator;
+	background: url(images/bg.png);
+	margin:0;
+	line-height: 1.4em;
+}
+h1,h2,h3{
+	margin:0px;
+}
+h1{
+	height:100px;
+	weight:800px;
+	text-indent:-9000px;
+	margin:20px 0 20px 0;
+	background: url(images/logo.png) no-repeat;
+	color: #fff;
+	
+}
+h2{
+	font-weight:lighter;
+	font-size:35px;
+	margin: 5px;
+}
+h3{
+	margin: 5px;
+	font-weight:lighter;
+}
+hgroup{
+	font-family: peahilarymarie;
+	text-decoration: none;
+	color:#fff;
+	margin: 0 0 40px 0;
+}
+article{
+	margin-top: 250px;
+}
+.container{
+	
+	width: 800px;
+	margin: 0 auto;
+	
+}
+#recipies{
+	padding: 15px;
+	background: #fff url(images/yum.jpg) no-repeat;
+	border-top: 10px solid #222;
+	box-shadow: 0 0 20px #424242;
+}
+table, tr, td{
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+table td {
+	padding: 5px;
+}
