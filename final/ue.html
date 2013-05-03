@@ -2,7 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
+<link rel="stylesheet" href="screen.css" type="text/css" media="screen" >
+<script language="javascript" type="text/javascript">
+ function EvalSound(soundobj) {
+var thissound=document.getElementById(soundobj);
+thissound.Play();
+}
+ </script>
+     <embed src="ButtonClick.mp3" autostart=false width=0 height=0 id="boom"
+    enablejavascript="true">
 <title>Unexpected Expedition</title>
 </head>
 
@@ -12,9 +20,10 @@
         	<h1>Laura Longworth</h1>
         </header>
         <ul id="nav"> 
-          <li><a href="about.html">About</a></li>
-          <li><a href="Projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li></ul>
+          <li><a href="about.html" value="Play Sound" onClick="EvalSound('boom')">About</a></li>
+          <li><a href="Projects.html" value="Play Sound" onClick="EvalSound('boom')">Projects</a></li>
+          <li><a href="contact.html" value="Play Sound" onClick="EvalSound('boom')">Contact</a></li>
+          <li><a href="deliver.html" value="Play Sound" onClick="EvalSound('boom')">Deliverables</a></li></ul>
           <div class="doubleaside2">
           <h1>Unexpected Expedition</h1>
           <h2>About</h2>
@@ -41,7 +50,7 @@
           <center><h4>Copyright &copy; 2013 Laura Longworth. All rights reserved.</h4></center>
         <br />
         <br />
-
+<center><img src="images/BearShadow.png" width="150" height="150" /></center>
         </footer>
 </body>
 </html>

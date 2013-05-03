@@ -1,33 +1,44 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="screen.css" type="text/css" media="screen" >
+<script language="javascript" type="text/javascript">
+ function EvalSound(soundobj) {
+var thissound=document.getElementById(soundobj);
+thissound.Play();
+}
+ </script>
+     <embed src="ButtonClick.mp3" autostart=false width=0 height=0 id="boom"
+    enablejavascript="true">
 <title>Laura Longworth Portfolio</title>
 
 </head>
 
-<body>
+<body >
+
 	<div class="wrap">
 		<header>
         	<h1>Laura Longworth</h1>
         </header>
         <ul id="nav"> 
-          <li><a href="about.html">About</a></li>
-          <li><a href="Projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li></ul>
+          <li><a href="about.html" value="Play Sound" onClick="EvalSound('boom')">About</a></li>
+          <li><a href="Projects.html" value="Play Sound" onClick="EvalSound('boom')">Projects</a></li>
+          <li><a href="contact.html" value="Play Sound" onClick="EvalSound('boom')">Contact</a></li>
+          <li><a href="deliver.html" value="Play Sound" onClick="EvalSound('boom')">Deliverables</a></li></ul>
           
         <section>
         <p>Welcome to my personal site. My name is Laura Longworth and on this site you can find more information about me, how to contact me, and some of the projects that I've worked on</p>
-         <a href="models.html"><img src="images/MayaPhotos/BeeGee.jpg" height="200" width="300" /></a> 
-        <a id="link2" href="models.html"><h3> Maya Models</h3></a>
+         <center><a href="models.html"><img src="images/MayaPhotos/BeeGee.jpg" height="200" width="300" /></a> 
+        <a id="link2" href="models.html"><h3> Maya Models</h3></a></center>
         
         
-      <a href="ue.html"><img src="images/UE.png" height="200" width="300"/></a>
-        <a id="link2" href="ue.html"><h3>Unexpected Expedition</h3></a>
+      <center><a href="ue.html"><img src="images/UE.png" height="200" width="300"/></a>
+        <a id="link2" href="ue.html"><h3>Unexpected Expedition</h3></a></center>
        
         
-      <a href="lives.html"><img src="images/9Lives/NLscreenS03.jpg" height="200" width="300" /></a>
-        <a id="link2" href="lives.html"><h3>9 Lives</h3></a>
+      <center><a href="lives.html"><img src="images/9Lives/NLscreenS03.jpg" height="200" width="300" /></a>
+        <a id="link2" href="lives.html"><h3>9 Lives</h3></a></center>
         
         </section>
         
@@ -38,7 +49,7 @@
         <center><h4>Copyright &copy; 2013 Laura Longworth. All rights reserved.</h4></center>
         <br />
         <br />
-        
+        <center><img src="images/BearShadow.png" width="150" height="150" /></center>
         </footer>
 </body>
 </html>

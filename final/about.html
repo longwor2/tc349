@@ -2,7 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
+<link rel="stylesheet" href="screen.css" type="text/css" media="screen" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script language="javascript" type="text/javascript">
+ function EvalSound(soundobj) {
+var thissound=document.getElementById(soundobj);
+thissound.Play();
+}
+ </script>
+     <embed src="ButtonClick.mp3" autostart=false width=0 height=0 id="boom"
+    enablejavascript="true">
 <title>About Laura Longworth</title>
 </head>
 
@@ -12,9 +21,10 @@
         	<h1>Laura Longworth</h1>
         </header>
         <ul id="nav"> 
-          <li><a href="index.html">Main</a></li>
-          <li><a href="Projects.html">Projects</a></li>
-          <li><a href="Contact.html">Contact</a></li></ul>
+          <li><a href="index.html" value="Play Sound" onClick="EvalSound('boom')">Main</a></li>
+          <li><a href="Projects.html" value="Play Sound" onClick="EvalSound('boom')">Projects</a></li>
+          <li><a href="contact.html" value="Play Sound" onClick="EvalSound('boom')">Contact</a></li>
+          <li><a href="deliver.html" value="Play Sound" onClick="EvalSound('boom')">Deliverables</a></li></ul>
           <div class="doubleaside">
           <h1>About Laura</h1>
           <p> Hello my name is Laura Longworth. I am looking to find a carreer with 3d modeling, art and animaiton. I have experiance with designing games in the Game Design Specialization at Michigan State University. On game projects I enjoy the role of the 3d artist and enviromental asset creator. I am passionate about making great games so I also enjoy the role of managing teams and making sure my group can make a strong project. Aside from games I am also very interested in gaining more experiance with 3d modeling for animation and animating. </p>
@@ -50,7 +60,7 @@
           <center><h4>Copyright &copy; 2013 Laura Longworth. All rights reserved.</h4></center>
         <br />
         <br />
-        
+        <center><img src="images/BearShadow.png" width="150" height="150" /></center>
         </footer>
 </body>
 </html>
